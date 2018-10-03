@@ -1,0 +1,79 @@
+Instrucciones:
+La prueba está dividida en tres secciones. Las secciones 1 y 2 se pueden responder omitiendo la sección 3, en caso contrario solo se puede contestar la sección 3 omitiendo las secciones 1 y 2.
+
+
+Seccion 1
+Responde las siguientes en tus propias palabras
+
+
+1. ¿Qué es HTTP y en donde se utiliza?
+-Protocolos, información o parámetros que se envían en sitios web.
+
+2. ¿Menciona los Verbos HTTP más utilizados?
+-POST, GET, PUT, DELETE
+
+3. En breves palabras , ¿ En qué consiste la arquitectura cliente-servidor?
+-El cliente(web) es lo que ve el cliente, el servidor es lo que maneja/procesa la información/datos  enviados el cliente
+
+4. ¿Qué tipos de relaciones hay en SQL?
+-Uno a muchos, muchos a uno, uno a uno, muchos a muchos.
+
+5. ¿Que hace el siguiente comando “git commit”?
+- Prepara los cambios en la rama para hacer el push
+
+6. ¿Como se compone MVC?
+-Modelo que maneja el acceso a la base de datos
+Vista es lo que el usuario ve
+Controlador maneja las peticiones del usuario mediante las vistas
+
+
+7. ¿En qué consiste la Programación Orientada a Objetos?
+-En abstraer la realidad y modularla con clases y funciones. 
+
+8. ¿Que es REGEX  y que usos le darías ?
+-Las expresiones regulares las utilizo para validar argumentos y parámetros en funciones.
+
+9. ¿Que hacen los siguentes comandos de consola?
+   1. CP copia un archivo
+   2. MKDIR make directory
+   3. CD cambiar directorio
+   4. LS listar un directorio
+   5. TOUCH crear un archivo
+   6. TOP
+
+1. ¿Qué es un Middleware?
+- La capa lógica de intercambio de información
+
+2. ¿Que es una “promesa” en javascript?
+- Los callbacks que usa para manejar la a-sincronía
+
+3. ¿Como creas un nuevo repositorio en git?        
+-Creo un nuevo proyecto, en source tree le doy nuevo, le asigno el directorio y push hacía el github.
+
+
+Sección 2
+
+
+Resuelve los siguientes ejercicios de lógica, no importando el lenguaje de programación. Para el código puedes crear un gist publico ( https://gist.github.com/ )  y poner el enlace debajo de cada problema o subirlo a un repositorio en github.
+
+
+1. Given an input string, reverse the string word by word. For example, given s = "the sky is blue", return "blue is sky the". 
+
+
+1. Given a string, find the length of the longest substring without repeating characters. For example, the longest substring without repeating letters for "abcabcbb" is "abc", which the length is 3. For "bbbbb" the longest substring is "b", with the length of 1.
+
+
+1. Given two words, beginWord and endWord, and a wordList of approved words, find the length of the shortest transformation sequence from beginWord to endWord such that:
+* Only one letter can be changed at a time
+* Each transformed word must exist in the wordList.
+* Return the length of the shortest transformation sequence, or 0 if no such transformation sequence exists.
+Note: beginWord does not count as a transformed word. You can assume that beginWord and endWord are not empty and are not the same.
+Example:  For beginWord = "hit", endWord = "cog", and wordList = ["hot", "dot", "lot", "log", "cog"], the output should be wordLadder(beginWord, endWord, wordList) = 5.
+The shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog" with a length of 5
+Sección 3
+
+
+1. Crea una instancia en Heroku , Netlify , Firebase  o cualquier otra plataforma de cloud que exponga una aplicación web que:
+   1. La aplicación deberá imprimir la latitud y longitud del usuario, así como su User Agent.
+   2. Comparte la URL del repo en Github o Bitbucket.
+   3. Comparte la URL donde esta hosteado el proyecto
